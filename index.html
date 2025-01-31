@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="KIKIKI.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+        <h2 data-testid="fullName">Michael Ogbe</h2>
+        <p class="jobtitle" data-testid="jobTitle">Software Developer</p>
+        <p data-testid="shortBio">
+            An experienced Full Stack Engineer with a passion for developing robust and scalable web applications.
+Adept at utilizing a wide range of technologies to create innovative solutions.
+I have a proven track record of delivering high-quality projects within deadline and on budget.
+        </p>
+        <p data-testid="currentLocation">Port Harcourt, Nigeria.</p>
+        <p data-testid="emailAddress">michaelogbe61@gmail.com</p>
+        <div data-testid="socialLinks">
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+        <p data-testid="currentTimeUTC" id="currentTimeUTC">Current Time (UTC): Loading...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
